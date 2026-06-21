@@ -30,13 +30,13 @@ export default function QuoteForm() {
       <div className="wrap grid lg:grid-cols-12 gap-12 lg:gap-16">
         {/* Vänster: kontaktuppgifter + karta */}
         <div className="lg:col-span-5">
-          <p className="eyebrow pipe-rule pl-7 mb-4">Hör av dig</p>
+          <p className="eyebrow pipe-rule mb-4">Hör av dig</p>
           <h2 className="text-4xl md:text-5xl text-marine font-extrabold mb-5">
             Begär en kostnadsfri offert
           </h2>
           <p className="text-lg text-ink-soft mb-8">
-            Beskriv vad du behöver så återkommer vi med ett pris — utan
-            förpliktelser. Akut? Ring direkt, det går snabbast.
+            Skriv vad du behöver hjälp med så hör vi av oss med ett pris.
+            Är det akut? Ring direkt, det går snabbast.
           </p>
 
           <ul className="space-y-3 mb-8">
