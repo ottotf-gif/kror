@@ -7,19 +7,19 @@ export default function Hero() {
       <div className="wrap grid lg:grid-cols-12 gap-10 lg:gap-12 items-center">
         {/* Vänster: budskap */}
         <div className="lg:col-span-6">
-          <p className="eyebrow pipe-rule pl-7 mb-5">{company.tagline}</p>
+          <p className="eyebrow pipe-rule mb-5">{company.tagline}</p>
 
           <h1 className="text-[2.75rem] sm:text-6xl lg:text-[4.25rem] text-marine font-extrabold mb-6">
-            Rörmokaren i
+            Rörmokare i
             <br />
-            Stenungsund du
+            Stenungsund,
             <br />
-            <span className="text-copper">kan lita på.</span>
+            <span className="text-copper">Tjörn & Orust.</span>
           </h1>
 
           <p className="text-lg text-ink-soft max-w-md mb-8">
-            Familjär VVS-firma med säte i Spekeröd. Vi tar hand om allt från
-            droppande kranar till bergvärme — i Stenungsund, på Tjörn och Orust.
+            VVS-firma i Spekeröd. Droppande kran, stopp i avloppet, nytt badrum
+            eller bergvärme — ring så kommer vi och tittar.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-3 mb-8">
