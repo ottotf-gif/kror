@@ -3,18 +3,18 @@ import { company } from '../data/company';
 const points = [
   {
     k: 'Lokalt',
-    title: 'Folk från trakten',
-    body: 'Säte i Spekeröd, jobb i Stenungsund, Tjörn och Orust. Kort restid och lokal kännedom.',
+    title: 'Spekeröd, kör i hela trakten',
+    body: 'Stenungsund, Tjörn och Orust. Kort restid och du vet vem som dyker upp.',
   },
   {
     k: 'Brett',
-    title: 'Värme, vatten & kyla',
-    body: 'Rör, avlopp, badrum, kranar — och hela vägen upp till bergvärmepumpar och kylanläggning.',
+    title: 'Vatten, värme och kyla',
+    body: 'Rör, avlopp och badrum. Plus bergvärmepumpar och kyla när det behövs.',
   },
   {
-    k: 'Tryggt',
-    title: 'Tydligt pris från start',
-    body: 'Kostnadsfri offert innan arbetet börjar. Inga överraskningar på fakturan.',
+    k: 'Pris',
+    title: 'Pris innan vi börjar',
+    body: 'Du får en offert först. Inga överraskningar på fakturan efteråt.',
   },
 ];
 
@@ -23,11 +23,11 @@ export default function WhyUs() {
     <section className="py-20 md:py-28">
       <div className="wrap grid lg:grid-cols-12 gap-12">
         <div className="lg:col-span-4 reveal">
-          <p className="eyebrow pipe-rule pl-7 mb-4">Varför K-RÖR</p>
+          <p className="eyebrow pipe-rule mb-4">Varför K-RÖR</p>
           <h2 className="text-4xl md:text-5xl text-marine font-extrabold">
-            En rörfirma som
+            Liten firma.
             <br />
-            håller vad den lovar
+            Du pratar med den som gör jobbet.
           </h2>
         </div>
 
