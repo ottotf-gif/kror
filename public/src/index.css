@@ -27,13 +27,13 @@
     @apply max-w-content mx-auto px-5 sm:px-8 lg:px-10;
   }
 
-  /* Signaturen: kopparlinjen som löper genom sidan som ett rörstråk */
+  /* Signaturen: kopparpricken som markerar varje sektionsrubrik (rörstråk) */
   .pipe-rule {
-    @apply relative;
+    @apply inline-flex items-center gap-2.5;
   }
   .pipe-rule::before {
     content: '';
-    @apply absolute left-0 top-1.5 h-3.5 w-3.5 rounded-full bg-copper;
+    @apply h-2 w-2 rounded-full bg-copper shrink-0;
   }
 
   .eyebrow {
