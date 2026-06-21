@@ -8,9 +8,9 @@ export default function Reviews() {
       <div className="wrap">
         <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-5 mb-12 reveal">
           <div>
-            <p className="eyebrow pipe-rule pl-7 mb-4">Vad kunderna säger</p>
+            <p className="eyebrow pipe-rule mb-4">Vad kunderna säger</p>
             <h2 className="text-4xl md:text-5xl text-marine font-extrabold">
-              Omdömen från grannarna
+              5,0 på Google
             </h2>
           </div>
           <div className="flex items-center gap-3">
